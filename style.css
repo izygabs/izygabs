@@ -11,10 +11,11 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   padding: 1em;
+  border: 1px solid red;
 }
 
 .hero-section {
@@ -114,13 +115,14 @@ body {
 
 .experience-heading {
   font-size: 2rem;
-  margin-left: 1em;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid blue;
 }
 
 .experience {
   display: flex;
   justify-content: space-between;
-  padding: 0 2em;
 }
 
 .experience div {

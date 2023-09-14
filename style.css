@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
+::selection {
+  color: #ff5e3a;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -15,6 +19,46 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 1em;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0 3.125em;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+
+.logo h2 {
+  width: 120px;
+  margin: 0;
+  font-size: 2.5rem;
+  color: #439bce;
+}
+
+.logo span {
+  color: #ff5e3a;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-menu-item a {
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  color: #000000;
+  padding: 15px;
+  transition: 0.2s;
+}
+
+.nav-menu-item a:hover {
+  color: #ff5e3a;
 }
 
 .hero-section {
